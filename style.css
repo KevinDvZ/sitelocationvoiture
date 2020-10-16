@@ -1,0 +1,54 @@
+html {
+  width: 1440px;
+}
+
+#sidebar {
+  position: fixed;
+  border: 1px solid black;
+  background-color: aqua;
+  width: 100%;
+  z-index: 100000;
+}
+
+#sidebar li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin-right: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+#num {
+  text-decoration: none;
+  color: black;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: blue;
+}
+
+.gridlayer {
+  display: grid;
+  position: absolute;
+  top: 80px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(300px, auto);
+}
+
+.leftarea {
+  display: grid;
+  grid-column: 1;
+}
+
+.img {
+  display: grid;
+  grid-column: 2 / 4;
+}
