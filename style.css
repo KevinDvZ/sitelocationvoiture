@@ -1,6 +1,6 @@
 html {
   width: 1440px;
-  background: linear-gradient(20deg,#bde0ff, #dee5e1);
+  background: linear-gradient(-20deg,#bde0ff, #dee5e1);
   scroll-behavior: smooth;
 }
 
@@ -73,22 +73,22 @@ a:hover {
 }
 
 #ou {
-    background-color: #bde0ff;
+    /* background-color: #bde0ff; */
     
 }
 
 #chif {
-    background-color: #dee5e1;
+    /* background-color: #dee5e1; */
 }
 
 #conf {
-    background-color: #bde0ff;
+    /* background-color: #bde0ff; */
 }
 
 #tarif {
-    background-color: #dee5e1;
+    /* background-color: #dee5e1; */
 }
 
 #contact{
-    background-color: #bde0ff;
+    /* background-color: #bde0ff; */
 }
