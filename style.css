@@ -1,5 +1,6 @@
 html {
   width: 1440px;
+  background: linear-gradient(20deg,#bde0ff, #dee5e1);
 }
 
 #sidebar {
@@ -24,6 +25,10 @@ a {
   border: 1px solid black;
   border-radius: 40px;
 }
+a:hover {
+    background-color: blue;
+    transition-delay: 50ms;
+}
 
 #num {
   text-decoration: none;
@@ -37,8 +42,9 @@ a {
 .gridlayer {
   display: grid;
   position: absolute;
+  width: 1440px;
   top: 80px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(500px, auto);
 }
 
@@ -46,20 +52,22 @@ a {
   display: grid;
   grid-column: 1;
   text-align: center;
+  align-self: center;
 }
 
 .img {
   display: grid;
-  grid-column: 2 / 4;
+  grid-column: 3 / 5;
 }
-img {
+.img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-image: url("image/oracle.jpg");
 }
 
 #qui {
-    background-color: #dee5e1;
+    /* background-color: #dee5e1; */
 }
 
 #ou {
@@ -67,17 +75,17 @@ img {
 }
 
 #chif {
-
+    background-color: #dee5e1;
 }
 
 #conf {
-
+    background-color: #bde0ff;
 }
 
 #tarif {
-
+    background-color: #dee5e1;
 }
 
 #contact{
-
+    background-color: #bde0ff;
 }
